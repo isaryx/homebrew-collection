@@ -6,6 +6,13 @@ cask "corretto11" do
     name "AWS Corretto JDK"
     desc "OpenJDK distribution from Amazon"
     homepage "https://corretto.aws/"
+
+    livecheck do
+        url "https://corretto.aws/downloads/latest/amazon-corretto-#{version.major}-x64-macos-jdk.pkg"
+        strategy :header_match do |headers|
+          headers["location"][%r{/amazon-corretto-(\d+(?:\.\d+)+)-macosx-x64\.pkg}i, 1]
+        end
+      end
   
     pkg "amazon-corretto-#{version}-macosx-x64.pkg"
   
