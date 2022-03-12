@@ -1,6 +1,6 @@
 cask "corretto11" do
-  version "11.0.15.2.1"
-  sha256 "a03045b0853aa03a875efff018022d86080c9d18a94a9f7f61357305dc511f41"
+  version "11.0.14.10.1"
+  sha256 "b5db350456838b4e0c3236f6f830357998ef5ee316eef2a11282b5d821dd6b30"
 
   url "https://corretto.aws/downloads/resources/#{version.sub(/-\d+/, "")}/amazon-corretto-#{version}-macosx-x64.pkg"
   name "AWS Corretto JDK"
