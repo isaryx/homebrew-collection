@@ -1,11 +1,11 @@
 cask "corretto11" do
-  version "11.0.18.10.1"
-  sha256 "f19d4cc39beb60982ffdfaeefb98100fd8d673b7bd3b0f5acd8306c9f78b21dd"
+  version "11.0.20.9.1"
+  sha256 "bbb6dbb917b8def5fa2c7e94a52c8b92020d6e38c5f55634296facff3168e4b4"
 
   url "https://corretto.aws/downloads/resources/#{version.sub(/-\d+/, "")}/amazon-corretto-#{version}-macosx-x64.pkg"
   name "AWS Corretto JDK"
   desc "OpenJDK distribution from Amazon"
-  homepage "https://corretto.aws/"
+  homepage "https://github.com/corretto/corretto-11/releases"
 
   livecheck do
       url "https://corretto.aws/downloads/latest/amazon-corretto-#{version.major}-x64-macos-jdk.pkg"
