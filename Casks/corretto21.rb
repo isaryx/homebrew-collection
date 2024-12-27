@@ -6,7 +6,7 @@ cask "corretto21" do
   url "https://corretto.aws/downloads/resources/#{version.sub(/-\d+/, "")}/amazon-corretto-#{version}-macosx-aarch64.pkg"
   name "AWS Corretto JDK"
   desc "OpenJDK distribution from Amazon"
-  homepage "https://github.com/corretto/corretto-11/releases"
+  homepage "https://github.com/corretto/corretto-21/releases"
 
   livecheck do
       url "https://corretto.aws/downloads/latest/amazon-corretto-#{version.major}-aarch64-macos-jdk.pkg"
