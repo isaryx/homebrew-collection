@@ -1,3 +1,4 @@
+# https://github.com/corretto/corretto-11/releases
 cask "corretto11" do
   version "11.0.25.9.1"
   sha256 "5b26b4f191385671c89b23a46fab070c4dac978c32ecb9581b4c21a7cdef28de"
