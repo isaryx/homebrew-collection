@@ -1,7 +1,7 @@
 # https://github.com/corretto/corretto-11/releases
 cask "corretto11" do
-  version "11.0.28.6.1"
-  sha256 "1ea8284ecaf5cb98eddcf4f62aed4d5d679026c3e2a924b33178fe2ebe0e71eb"
+  version "11.0.29.7.1"
+  sha256 "233008d87989692ada759ce061269425da636f09d305ec527ef49d0b70cea261"
 
   url "https://corretto.aws/downloads/resources/#{version.sub(/-\d+/, "")}/amazon-corretto-#{version}-macosx-aarch64.pkg"
   name "AWS Corretto JDK"

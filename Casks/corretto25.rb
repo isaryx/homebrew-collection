@@ -1,7 +1,7 @@
 # https://github.com/corretto/corretto-25/releases
 cask "corretto25" do
-  version "25.0.0.36.1"
-  sha256 "8c07ecbf7f91602c3b41d42c1573f3a7f39fb3699d95d7e96ea46d46e05ae585"
+  version "25.0.1.8.1"
+  sha256 "b1112d1991daed37952b22a866e0ff5cf951513edaded3c3b876636a12211d4c"
 
   url "https://corretto.aws/downloads/resources/#{version.sub(/-\d+/, "")}/amazon-corretto-#{version}-macosx-aarch64.pkg"
   name "AWS Corretto JDK"
