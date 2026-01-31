@@ -21,10 +21,10 @@ brew tap isaryx/collection
 
 | Cask | Description | Version | Notes |
 |------|-------------|---------|-------|
-| `corretto11` | Amazon Corretto JDK 11 | 11.0.29.7.1 | LTS |
-| `corretto17` | Amazon Corretto JDK 17 | 17.0.17.10.1 | LTS |
+| `corretto11` | Amazon Corretto JDK 11 | 11.0.30.7.1 | LTS |
+| `corretto17` | Amazon Corretto JDK 17 | 17.0.18.8.1 | LTS |
 | `corretto21` | Amazon Corretto JDK 21 | 21.0.10.7.1 | LTS |
-| `corretto25` | Amazon Corretto JDK 25 | 25.0.1.8.1 | Latest |
+| `corretto25` | Amazon Corretto JDK 25 | 25.0.2.10.1 | LTS |
 | `bitbar` | Menu bar scripting | 1.10.1 | Deprecated, see [xbar](https://github.com/matryer/xbar) |
 | `shuttle` | SSH shortcut menu | 1.2.9 | |
 
