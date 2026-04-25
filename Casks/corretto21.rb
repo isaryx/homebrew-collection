@@ -2,13 +2,13 @@
 cask "corretto21" do
   arch arm: "aarch64", intel: "x64"
 
-  version "21.0.10.7.1"
+  version "21.0.11.10.1"
 
   on_arm do
-    sha256 "d0ca3c3afe2858572c436d1afaa23b7ca3781476ce8c3f80dac8a275a77d50d6"
+    sha256 "21f97a420152554b2e35f892f22a1d1f9460aacbef1badcf9c48dbea8f7ab6c7"
   end
   on_intel do
-    sha256 "8a34da4a34dd50ab7302f624cd9870d7fe38a5a70227980e6c597cb46268c2e6"
+    sha256 "3b946d1cf350702f7bea14a4cfc26d3db163889b1a03feda058948b48ee07717"
   end
 
   url "https://corretto.aws/downloads/resources/#{version}/amazon-corretto-#{version}-macosx-#{arch}.pkg"
