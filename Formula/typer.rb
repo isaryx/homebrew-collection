@@ -1,26 +1,26 @@
 class Typer < Formula
   desc "Cross-platform typing trainer CLI"
   homepage "https://github.com/isaryx/typer"
-  version "0.3.4"
+  version "0.3.5"
   on_macos do
     on_arm do
-      url "https://github.com/isaryx/typer/releases/download/v0.3.4/typer-0.3.4-darwin-arm64.tar.gz"
-      sha256 "222a49666b3ebe833ff54390b3bcc5c74ce9fb5471729e3d50a5b661890e1e63"
+      url "https://github.com/isaryx/typer/releases/download/v0.3.5/typer-0.3.5-darwin-arm64.tar.gz"
+      sha256 "08c9d3bf73790dcf0bc19159da76aa5a92b41c8ae18be8fe5982d7092e52fae2"
     end
     on_intel do
-      url "https://github.com/isaryx/typer/releases/download/v0.3.4/typer-0.3.4-darwin-amd64.tar.gz"
-      sha256 "f66e8b428fed5d5db57ef18bb9c626cadd0417e36b72d52ed903e94dc80f2a2e"
+      url "https://github.com/isaryx/typer/releases/download/v0.3.5/typer-0.3.5-darwin-amd64.tar.gz"
+      sha256 "e92b01836bc63a6a8b0ac99a1969adef88ac799a28e15520fa48065187385873"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/isaryx/typer/releases/download/v0.3.4/typer-0.3.4-linux-arm64.tar.gz"
-      sha256 "e0ea8a6d575705af269155e527c44d1b65594156b222503ab143adbcbca14b0c"
+      url "https://github.com/isaryx/typer/releases/download/v0.3.5/typer-0.3.5-linux-arm64.tar.gz"
+      sha256 "54f0338790a9b5d4f9dc601fc80b5bf8371754fd98993929c457c0418bb2b33f"
     end
     on_intel do
-      url "https://github.com/isaryx/typer/releases/download/v0.3.4/typer-0.3.4-linux-amd64.tar.gz"
-      sha256 "7f29c164c80d8bdeef55b91ad222a05f802c90b11b4b32cab9c9a7186395d03b"
+      url "https://github.com/isaryx/typer/releases/download/v0.3.5/typer-0.3.5-linux-amd64.tar.gz"
+      sha256 "752b7ad50646ae7409dc4830b7e336dc02ffdc1a5b394b6a45faa0bf5a50b57d"
     end
   end
 
@@ -30,6 +30,6 @@ class Typer < Formula
 
   test do
     out = shell_output("#{bin}/typer version")
-    assert_match "0.3.4", out
+    assert_match "0.3.5", out
   end
 end
