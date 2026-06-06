@@ -24,6 +24,7 @@ Cursor agent skills for maintaining this tap live in `.agents/skills/`:
 |-------|---------|
 | `check-tap` | Audit tap versions against upstream |
 | `bump-homebrew` | Bump a formula or cask version |
+| `test-homebrew` | Install and test a formula or cask locally |
 
 ## License
 
