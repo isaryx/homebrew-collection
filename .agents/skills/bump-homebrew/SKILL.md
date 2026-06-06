@@ -1,11 +1,11 @@
 ---
-name: bump-tap
+name: bump-homebrew
 description: >-
-  Bump a package version in this Homebrew tap. Use when releasing or updating
-  a formula or cask in Formula/ or Casks/.
+  Bump a formula or cask version in a Homebrew tap. Use when releasing a
+  package, updating Formula/ or Casks/, or bumping download URLs and checksums.
 ---
 
-# Bump Tap Package
+# Bump Homebrew Package
 
 1. Open `Formula/{name}.rb` or `Casks/{name}.rb` — read it first, keep its structure
 2. Confirm the upstream release exists (stop if 404)
