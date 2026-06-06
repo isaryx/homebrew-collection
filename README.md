@@ -1,47 +1,29 @@
 # isaryx Collection
 
-A curated Homebrew tap for versioned development tools and JDK distributions.
-
-## Quick Start
+Homebrew tap for versioned dev tools and JDK distributions.
 
 ```bash
 brew tap isaryx/collection
+brew install isaryx/collection/thrift@0.23
+brew install --cask isaryx/collection/corretto21
 ```
 
 ## Packages
 
-### Formulae
+**Formulae:** `thrift@0.20`, `thrift@0.22`, `thrift@0.23`, `typer`
 
-| Formula | Description | Version |
-|---------|-------------|---------|
-| `thrift@0.20` | Apache Thrift framework | 0.20.0 |
-| `thrift@0.22` | Apache Thrift framework | 0.22.0 |
+**Casks:** `corretto11`, `corretto17`, `corretto21`, `corretto25`, `bitbar`, `shuttle`
 
-### Casks
+Corretto casks support Apple Silicon and Intel. `bitbar` is deprecated — see [xbar](https://github.com/matryer/xbar).
 
-| Cask | Description | Version | Notes |
-|------|-------------|---------|-------|
-| `corretto11` | Amazon Corretto JDK 11 | 11.0.30.7.1 | LTS |
-| `corretto17` | Amazon Corretto JDK 17 | 17.0.18.8.1 | LTS |
-| `corretto21` | Amazon Corretto JDK 21 | 21.0.10.7.1 | LTS |
-| `corretto25` | Amazon Corretto JDK 25 | 25.0.2.10.1 | LTS |
-| `bitbar` | Menu bar scripting | 1.10.1 | Deprecated, see [xbar](https://github.com/matryer/xbar) |
-| `shuttle` | SSH shortcut menu | 1.2.9 | |
+## Agent skills
 
-All Corretto casks support both Apple Silicon and Intel Macs.
+Cursor agent skills for maintaining this tap live in `.agents/skills/`:
 
-## Install Examples
-
-```bash
-# Thrift
-brew install isaryx/collection/thrift@0.22
-
-# Corretto JDK
-brew install --cask isaryx/collection/corretto21
-
-# Set JAVA_HOME (add to your shell profile)
-export JAVA_HOME=$(/usr/libexec/java_home -v 21)
-```
+| Skill | Purpose |
+|-------|---------|
+| `check-tap` | Audit tap versions against upstream |
+| `bump-homebrew` | Bump a formula or cask version |
 
 ## License
 
