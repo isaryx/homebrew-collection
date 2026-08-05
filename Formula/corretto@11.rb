@@ -1,27 +1,27 @@
 class CorrettoAT11 < Formula
   desc "Amazon Corretto 11 (OpenJDK distribution)"
   homepage "https://github.com/corretto/corretto-11"
-  version "11.0.31.11.1"
+  version "11.0.32.9.1"
 
   on_macos do
     on_arm do
-      url "https://corretto.aws/downloads/resources/11.0.31.11.1/amazon-corretto-11.0.31.11.1-macosx-aarch64.tar.gz"
-      sha256 "e31cc1fd9b42bf40ec0682a027c024599ac1d84bf2447ab1f32b4caa94c08faa"
+      url "https://corretto.aws/downloads/resources/11.0.32.9.1/amazon-corretto-11.0.32.9.1-macosx-aarch64.tar.gz"
+      sha256 "569ef802134a63d026b9a0215c2c61e49a077ce896462334b63668cdd644b1f6"
     end
     on_intel do
-      url "https://corretto.aws/downloads/resources/11.0.31.11.1/amazon-corretto-11.0.31.11.1-macosx-x64.tar.gz"
-      sha256 "ce278c17516502934179faff7e6d64aac0bab0e48633c792b59b70893b56a0e6"
+      url "https://corretto.aws/downloads/resources/11.0.32.9.1/amazon-corretto-11.0.32.9.1-macosx-x64.tar.gz"
+      sha256 "399ff66c80c4f55024c8ba36bfdefbcd4ac180934d147a30b9f66d6970b055e7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://corretto.aws/downloads/resources/11.0.31.11.1/amazon-corretto-11.0.31.11.1-linux-aarch64.tar.gz"
-      sha256 "8ee5fba821463363dc76a18049e338d12c74752430a743aa405af126a62218da"
+      url "https://corretto.aws/downloads/resources/11.0.32.9.1/amazon-corretto-11.0.32.9.1-linux-aarch64.tar.gz"
+      sha256 "c922bdb3b9ee3eb2e5c6c15f39147d79f4698cd17e181423fea46319b3891504"
     end
     on_intel do
-      url "https://corretto.aws/downloads/resources/11.0.31.11.1/amazon-corretto-11.0.31.11.1-linux-x64.tar.gz"
-      sha256 "70f6ff3668f27d1052f9e26c7a00d601774a556a49e6e9e7faa9d510ae1d0dbe"
+      url "https://corretto.aws/downloads/resources/11.0.32.9.1/amazon-corretto-11.0.32.9.1-linux-x64.tar.gz"
+      sha256 "b09aac76316cef26dca770c89ca23ce55708bd0463e2640e86915ee528cb5bd0"
     end
   end
 

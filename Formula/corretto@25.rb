@@ -1,27 +1,27 @@
 class CorrettoAT25 < Formula
   desc "Amazon Corretto 25 (OpenJDK distribution)"
   homepage "https://github.com/corretto/corretto-25"
-  version "25.0.3.9.1"
+  version "25.0.4.7.1"
 
   on_macos do
     on_arm do
-      url "https://corretto.aws/downloads/resources/25.0.3.9.1/amazon-corretto-25.0.3.9.1-macosx-aarch64.tar.gz"
-      sha256 "614107ed76e9fb86d62d8cf2686a9cc4b3a11c019502ca3ba605fc5d51f4d7bb"
+      url "https://corretto.aws/downloads/resources/25.0.4.7.1/amazon-corretto-25.0.4.7.1-macosx-aarch64.tar.gz"
+      sha256 "41e185be6b230cff4e9c85d33f9b092274a32e42113087f26d3b2e4f7909ab78"
     end
     on_intel do
-      url "https://corretto.aws/downloads/resources/25.0.3.9.1/amazon-corretto-25.0.3.9.1-macosx-x64.tar.gz"
-      sha256 "0cfef7feb0f4d7d352881b08d527c22840b8fb5eaaa7552b25619edb449d6d94"
+      url "https://corretto.aws/downloads/resources/25.0.4.7.1/amazon-corretto-25.0.4.7.1-macosx-x64.tar.gz"
+      sha256 "840b857016f2ab1a60a2aa5a68584b1da55f4ab953c1e2a207bde0a5114f683d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://corretto.aws/downloads/resources/25.0.3.9.1/amazon-corretto-25.0.3.9.1-linux-aarch64.tar.gz"
-      sha256 "8b1fd78bbd1f188f3884f580be674727174635252c0d4d6dfa7cd15de51879ce"
+      url "https://corretto.aws/downloads/resources/25.0.4.7.1/amazon-corretto-25.0.4.7.1-linux-aarch64.tar.gz"
+      sha256 "90a07c1c693ac9333a8a6ec79432f0d13c0564fec6617b0222d43f86858f65b8"
     end
     on_intel do
-      url "https://corretto.aws/downloads/resources/25.0.3.9.1/amazon-corretto-25.0.3.9.1-linux-x64.tar.gz"
-      sha256 "00486fa402136f8d40512b101c645dd4db9be2b5535171530ad241cd96c1223d"
+      url "https://corretto.aws/downloads/resources/25.0.4.7.1/amazon-corretto-25.0.4.7.1-linux-x64.tar.gz"
+      sha256 "1d03a3bd5091728492d92f0ef341aca7d8885ece9a150119558f3e3d62b58745"
     end
   end
 
