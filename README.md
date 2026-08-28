@@ -10,7 +10,7 @@ brew install --cask isaryx/collection/corretto21
 
 ## Packages
 
-**Formulae:** `thrift@0.20`, `thrift@0.22`, `thrift@0.23`, `typer`
+**Formulae:** `thrift@0.20`, `thrift@0.22`, `thrift@0.23`, `typer`, `skm`
 
 **Casks:** `corretto11`, `corretto17`, `corretto21`, `corretto25`, `bitbar`, `shuttle`
 
