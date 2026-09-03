@@ -1,28 +1,28 @@
 class Skm < Formula
   desc "Manage AI agent skills from one local library"
   homepage "https://github.com/isaryx/skill-manager"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/isaryx/skill-manager/releases/download/v0.3.1/skm-0.3.1-macos-arm64.tar.gz"
-      sha256 "ea4119f10bd822b3e72ae85933c32f5a2c1eabc331936344fe15363e9d37553e"
+      url "https://github.com/isaryx/skill-manager/releases/download/v0.3.2/skm-0.3.2-macos-arm64.tar.gz"
+      sha256 "fd301d1a4e49a1130216adab3c1eb37c8dd5f6bacec1910887972adad525d222"
     end
     on_intel do
-      url "https://github.com/isaryx/skill-manager/releases/download/v0.3.1/skm-0.3.1-macos-x86_64.tar.gz"
-      sha256 "e6ded524dc7e34878699ad635d7bf4533d8197f55682fcedf6c6082dacd5d39c"
+      url "https://github.com/isaryx/skill-manager/releases/download/v0.3.2/skm-0.3.2-macos-x86_64.tar.gz"
+      sha256 "0963c3f6e7b82185f6c1505cedd20f8930b01aa224e6caeeb2be82dcc4d65eff"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/isaryx/skill-manager/releases/download/v0.3.1/skm-0.3.1-linux-arm64.tar.gz"
-      sha256 "325be5b38a0560b57f47e0c1ca2fc1340c106239218138522cccdc9acbb34355"
+      url "https://github.com/isaryx/skill-manager/releases/download/v0.3.2/skm-0.3.2-linux-arm64.tar.gz"
+      sha256 "b83698825d994df06a610432d663f32144ca1770b54ca65590c2d09ec31ce162"
     end
     on_intel do
-      url "https://github.com/isaryx/skill-manager/releases/download/v0.3.1/skm-0.3.1-linux-x86_64.tar.gz"
-      sha256 "0193e00f2cd6e7d2d9193ae8ad8fcc799f4fd0740145abb74372fc69f9a6e15f"
+      url "https://github.com/isaryx/skill-manager/releases/download/v0.3.2/skm-0.3.2-linux-x86_64.tar.gz"
+      sha256 "00238503bc191e75a1c3fd4d346fe4f19fa1502ee917e064656b0c7d2312655e"
     end
   end
 
